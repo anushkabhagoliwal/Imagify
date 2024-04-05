@@ -1,26 +1,34 @@
+# Imagify
 
-ShareMint: Decentralized Image-Sharing App
-ShareMint is a decentralized image-sharing application that leverages Blockchain Technology to provide users with a secure, transparent, and peer-to-peer image-sharing experience. This project combines the power of IPFS and the Ethereum blockchain to ensure data integrity and immutability, allowing users to share images with confidence.
+Imagify is a decentralized image sharing platform built on IPFS (InterPlanetary File System), leveraging React for the frontend, Pinata API for file management, Ether.js for Ethereum integration, and Hardhat for smart contract development.
 
-Features
-Decentralized Image Sharing: ShareMint enables users to share images in a decentralized manner, eliminating the need for a centralized authority and enhancing security.
+## Introduction
 
-IPFS Integration: The InterPlanetary File System (IPFS) is used for storing and retrieving images. This ensures that images are distributed across a network of nodes, making the system resilient and censorship-resistant.
+Imagify aims to revolutionize the way images are shared and stored on the internet by harnessing the power of decentralization. Traditional image-sharing platforms are often centralized, making them susceptible to censorship, data breaches, and single points of failure. Imagify eliminates these concerns by utilizing IPFS, a distributed peer-to-peer file system, ensuring that images are stored securely and immutably across a network of nodes.
 
-Ethereum Blockchain Transactions: The Ethereum blockchain is utilized to record and verify image transactions, providing a transparent and immutable ledger. This ensures the integrity of the shared images.
+## Features
 
-ethers.js Integration: Interaction with the Ethereum blockchain is facilitated by ethers.js, a powerful JavaScript library for working with Ethereum. ShareMint leverages ethers.js to perform efficient and secure transactions on the blockchain.
+- **Decentralized Storage**: Images are stored on IPFS, ensuring data integrity and availability without relying on a central server.
+- **Immutable Content**: Once uploaded, images cannot be altered or removed, providing a tamper-proof record of shared content.
+- **Ethereum Integration**: Seamlessly interact with Ethereum smart contracts for user authentication, content monetization, and more.
+- **User-Friendly Interface**: Intuitive and responsive React frontend for an enjoyable browsing and sharing experience.
+- **Pinata API Integration**: Simplifies file management and ensures reliable hosting of images on IPFS.
+- **Secure Transactions**: Leverage Ether.js for secure and efficient interactions with the Ethereum blockchain.
 
-Smart Contracts with Solidity: The smart contracts, responsible for managing image transactions on the Ethereum blockchain, are implemented in Solidity, a language specifically designed for smart contract development.
+## Getting Started
 
-Pinata API: ShareMint integrates with the Pinata API for managing IPFS content, ensuring robust file management on the IPFS network.
+To get started with Imagify, follow these steps:
 
-Hardhat Development Environment: The development environment is set up using Hardhat, a popular tool for compiling, deploying, and testing Ethereum smart contracts.
+1. Clone this repository: `git clone https://github.com/anushkabhagoliwal/imagify.git`
+2. Install dependencies: `cd imagify && npm install`
+3. Set up Pinata API keys: Sign up for Pinata and obtain API keys. Update `.env` file with your keys.
+4. Compile and deploy smart contracts: Use Hardhat to compile and deploy the smart contracts.
+5. Start the frontend: `npm start`
+6. Access Imagify in your browser at `http://localhost:3000`
 
-Ethereum wallet private key. Ensure that you use a testnet wallet for development purposes.
 
-Contributing
-Contributions are welcome! Feel free to open issues, submit pull requests, or suggest new features.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
